@@ -1,3 +1,3 @@
-export default function Callback() {
-  return <h1>Auth Callback</h1>;
+export default function handler(req, res) {
+  res.status(200).json({ message: "Auth callback API working" });
 }
