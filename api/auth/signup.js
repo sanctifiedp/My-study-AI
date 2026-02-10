@@ -1,5 +1,3 @@
-export default function handler(req, res) {
-  res.status(200).json({
-    message: "Signup route working"
-  });
+export default function Signup() {
+  return <h1>Signup Page</h1>;
 }
