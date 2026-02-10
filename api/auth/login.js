@@ -1,5 +1,3 @@
-export default function handler(req, res) {
-  res.status(200).json({
-    message: "Login route working"
-  });
+export default function Login() {
+  return <h1>Login Page</h1>;
 }
