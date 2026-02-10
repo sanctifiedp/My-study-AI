@@ -1,5 +1,3 @@
-export default function handler(req, res) {
-  res.status(200).json({
-    message: "Callback route working"
-  });
+export default function Callback() {
+  return <h1>Auth Callback</h1>;
 }
