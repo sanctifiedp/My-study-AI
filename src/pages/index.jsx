@@ -1,3 +1,7 @@
 export default function Home() {
-  return <h1>Study AI is live 🚀</h1>;
+  return (
+    <div>
+      <h1>Study AI</h1>
+    </div>
+  );
 }
