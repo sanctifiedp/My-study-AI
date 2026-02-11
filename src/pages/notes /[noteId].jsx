@@ -1,8 +1,7 @@
-import { useRouter } from "next/router";
-
-export default function NoteDetail() {
-  const router = useRouter();
-  const { noteId } = router.query;
-
-  return <h1>Note ID: {noteId}</h1>;
+export default function NotePage() {
+  return (
+    <div>
+      <h1>Note Page</h1>
+    </div>
+  );
 }
